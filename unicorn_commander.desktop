@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Unicorn Commander
+Comment=🦄 NPU Voice Assistant Pro - Real-time Speech Processing
+Exec=/home/ucadmin/Development/whisper_npu_project/launch_unicorn_commander.sh
+Icon=/home/ucadmin/Development/whisper_npu_project/unicorn-aware.png
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;Utility;
+Keywords=voice;assistant;speech;transcription;NPU;AI;
+StartupNotify=true
