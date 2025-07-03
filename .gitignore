@@ -83,3 +83,8 @@ ehthumbs.db
 
 # Documentation build output
 docs/_build/
+
+# Additional cache directories
+advanced_models_cache/
+igpu_models_cache/
+vad_cache/
