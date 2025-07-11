@@ -1,10 +1,24 @@
-# 🦄 Unicorn Commander - NPU Voice Assistant Pro
+# 🦄 Unicorn Aware - NPU Voice Assistant Pro
 
-🚀 **Production-ready NPU voice assistant with real-time speech processing**
+🚀 **Production-ready NPU voice assistant with real-time speech processing & TTS**
 
 **✅ PRODUCTION READY** - Real NPU acceleration operational (July 2025)
 
-A breakthrough NPU voice assistant achieving **10-45x real-time performance** with genuine AMD Phoenix NPU acceleration.
+A breakthrough NPU voice assistant achieving **10-45x real-time performance** with genuine AMD Phoenix NPU acceleration, featuring integrated NPU-optimized text-to-speech synthesis.
+
+## 📸 Screenshots
+
+### 🎙️ Real-Time Voice Processing
+![Always Listening Interface](unicorn-aware-stt.png)
+*Unicorn Commander interface with real-time speech-to-text processing, NPU acceleration, and voice activity detection*
+
+### 📄 Single File Processing
+![Single File Processing](unicorn-aware-transcribe.png)
+*High-performance single file transcription with NPU acceleration and multiple format support*
+
+### 🔊 Text-to-Speech Synthesis
+![TTS Interface](unicorn-aware-tts.png)
+*Kokoro TTS synthesis with NPU optimization for high-quality voice generation*
 
 ---
 
@@ -14,6 +28,7 @@ A breakthrough NPU voice assistant achieving **10-45x real-time performance** wi
 - **Real NPU Acceleration** - Genuine AMD Phoenix NPU processing (not demo mode)
 - **XRT Environment Fixed** - 11 environment variables properly configured  
 - **AdvancedNPUBackend** - High-performance speech processing engine
+- **NPU-Optimized TTS** - Kokoro text-to-speech with NPU acceleration
 - **Complete Integration** - Desktop app with professional GUI and installation
 
 ### 🚀 **Performance Breakthroughs**
@@ -37,6 +52,12 @@ A breakthrough NPU voice assistant achieving **10-45x real-time performance** wi
 - **🚀 ONNX Whisper + NPU** (RECOMMENDED) - Production transcription with NPU acceleration
 - **⚡ Legacy NPU Demo** - Hardware verification and matrix operation demonstration
 - **🔄 Seamless Switching** - Choose backend through enhanced GUI interface
+
+### 🎙️ Complete Voice Processing Suite
+- **Speech-to-Text** - Real-time transcription with NPU acceleration
+- **Text-to-Speech** - Kokoro TTS synthesis with NPU optimization
+- **Voice Activity Detection** - Advanced VAD with custom wake word support
+- **Multi-Format Support** - WAV, MP3, M4A, FLAC, OGG processing
 
 ### 🎯 ONNX Whisper + NPU System
 - **Complete ONNX Pipeline** - HuggingFace Whisper models (encoder + decoder)
@@ -72,25 +93,29 @@ A breakthrough NPU voice assistant achieving **10-45x real-time performance** wi
 
 ### **🎮 Primary GUI (Recommended)**
 ```bash
-cd /home/ucadmin/Development/whisper_npu_project
-python3 whisperx_npu_gui_qt6.py
+cd /home/ucadmin/Development/unicorn-aware
+python3 unicorn-aware.py
 ```
 
 ### **✅ Verified Features Available Now**
 - ✅ **Single File Processing** - Browse and transcribe audio files instantly
+- ✅ **Real-Time Voice Processing** - Always listening mode with wake word detection
 - ✅ **NPU Detection** - All 6 accelerator instances working  
 - ✅ **ONNX Whisper** - All models loaded and ready
+- ✅ **Kokoro TTS** - NPU-optimized text-to-speech synthesis
 - ✅ **System Configuration** - Adjust VAD, wake words, recording settings
 - ✅ **Export Functions** - Save results as TXT/JSON with metadata
 - ✅ **Performance Monitoring** - Real-time NPU and system diagnostics
 
 ### **🎯 Ready-to-Use Workflow**
 1. **Launch GUI** - Qt6 interface loads instantly
-2. **Go to Single File Tab** - Fully functional processing
-3. **Browse Audio File** - Select WAV, MP3, M4A, FLAC, OGG
-4. **Process with ONNX Whisper + NPU** - Get results in 0.25-0.5s
-5. **View Complete Results** - Transcription + performance metrics
-6. **Export Results** - Save with full metadata
+2. **Choose Your Mode**:
+   - **Single File Tab** - Upload and transcribe audio files
+   - **Always Listening Tab** - Real-time voice processing
+   - **Kokoro TTS Tab** - Text-to-speech synthesis
+3. **Process with NPU Acceleration** - Get results in 0.25-0.5s
+4. **View Complete Results** - Transcription + performance metrics
+5. **Export Results** - Save with full metadata
 
 ### **Alternative Launch Options**
 ```bash
@@ -282,6 +307,12 @@ python3 onnx_whisper_npu.py
 
 ---
 
+## 🏢 About Magic Unicorn
+
+Unicorn Aware is developed by **Magic Unicorn Unconventional Technology & Stuff Inc**, a cutting-edge technology company specializing in NPU acceleration and innovative AI solutions. Our mission is to push the boundaries of what's possible with modern hardware acceleration, bringing enterprise-grade performance to edge computing applications.
+
+---
+
 ## 🎉 BREAKTHROUGH CONCLUSION
 
 This project has achieved a **revolutionary breakthrough in NPU speech recognition**, creating the world's first complete ONNX Whisper system with real NPU acceleration. 
@@ -290,15 +321,16 @@ This project has achieved a **revolutionary breakthrough in NPU speech recogniti
 🏆 **First Complete ONNX + NPU Speech System**  
 ⚡ **Dramatic Performance Improvement** (10-45x faster than real-time)  
 🎯 **Production-Quality Results** with NPU acceleration  
-📱 **User-Friendly Interface** with dual backend support  
+🔊 **NPU-Optimized TTS Integration** with Kokoro synthesis  
+📱 **User-Friendly Interface** with comprehensive voice processing  
 📊 **Comprehensive Validation** (100% success rate)  
 
 **This breakthrough demonstrates that NPU hardware can deliver production-grade AI performance for complex applications, opening new possibilities for edge AI deployment.**
 
-The original vision of using "ONNX models for full use of the NPU" has been successfully realized and exceeded!
+The original vision of using "ONNX models for full use of the NPU" has been successfully realized and exceeded with the addition of complete voice processing capabilities!
 
 ---
 
-**Status**: 🎉 **BREAKTHROUGH ACHIEVED** - Production-ready ONNX Whisper + NPU system!  
-**Launch**: `./start_npu_gui.sh` → Select "onnx-base" → Experience the breakthrough!  
-**Performance**: 0.010x real-time factor with complete transcription and NPU acceleration  
+**Status**: 🎉 **BREAKTHROUGH ACHIEVED** - Production-ready ONNX Whisper + NPU system with TTS!  
+**Launch**: `python3 unicorn-aware.py` → Experience the complete voice processing suite!  
+**Performance**: 0.010x real-time factor with complete transcription, TTS synthesis, and NPU acceleration  
