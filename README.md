@@ -334,3 +334,11 @@ The original vision of using "ONNX models for full use of the NPU" has been succ
 **Status**: 🎉 **BREAKTHROUGH ACHIEVED** - Production-ready ONNX Whisper + NPU system with TTS!  
 **Launch**: `python3 unicorn-aware.py` → Experience the complete voice processing suite!  
 **Performance**: 0.010x real-time factor with complete transcription, TTS synthesis, and NPU acceleration  
+
+## License
+
+unicorn-aware is licensed under the **GNU Affero General Public License v3.0** (AGPL-3.0-or-later) — see [LICENSE](LICENSE).
+
+A **commercial license** is available for organizations that cannot meet the AGPL's network-copyleft obligations (for example, offering unicorn-aware as a hosted service without releasing their modifications). Contact **licensing@unicorncommander.ai**.
+
+© 2026 Magic Unicorn Unconventional Technology & Stuff Inc.
